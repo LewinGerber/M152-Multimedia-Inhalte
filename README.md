@@ -22,3 +22,21 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | Gemachte Erfahrungen: | Ich habe heute Erfahren wie ich mit einem React Rerender-Event die Grösse für eine Komponente wie als State mitgeben kann. |
 | Standortbestimmung und Selbsteinschätzung: | Ich habe nun alles Erreicht, was für das Videoprojekt von Bedeutung ist. |
 | Planung, nächste Schritte: | Als nächstes könnte ich mit dem nächsten Medium anfangen, oder meine Applikation noch erweitern, indem ich beispielsweise das Video noch für den Internetgebrauch optimiere oder das Responsive Design noch erweitere. |
+
+| 🎥 | VIDEOPROJEKT |
+| --- | --- |
+| 8. März 2021 | 1 Lektion |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | In dieser Lektion habe ich zu Hause meine Implementation erweitert. Da ich sehen wollte wie man Videos optimiert, habe ich bei meiner Applikation die Möglichkeit implementiert verschieden Implementationen anzusehen. Es stehen nun 3 verschiedene Implementation zur Verfügung. Die erste ist die Hauptimplementation mit 2 Quellen (mp4 und webM in optimierter Form), die zweite ist nur das nicht optimierte mp4 Video und die dritte und letzte ist die Implementation mit der "react-video" Library. |
+| Erreichte Kompetenzen und notwendiges Wissen: | Durch diese Implementation habe ich gelernt, wie ich Videos optimieren kann und welche verschiedenen Möglichkeiten für Videoformate es gibt. Zudem weiss ich nun, welche verschiedenen Wege es gibt, um ein Video in eine Webapplikation zu integrieren. |
+| Gemachte Erfahrungen: | (siehe oben) |
+| Standortbestimmung und Selbsteinschätzung: | Mit diesen Schritten habe ich das Videoprojekt endgültig abgeschlossen. |
+| Planung, nächste Schritte: | Als nächstes widme ich mich der nächsten Projektarbeit (Bildergallerie) |
+
+| - | GALLERIE |
+| --- | --- |
+| 10. März 2021 | 3 Lektionen |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | |
+| Erreichte Kompetenzen und notwendiges Wissen: | |
+| Gemachte Erfahrungen: | |
+| Standortbestimmung und Selbsteinschätzung: | |
+| Planung, nächste Schritte: | |
