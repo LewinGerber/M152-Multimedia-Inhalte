@@ -15,6 +15,13 @@
   height: max-content;
 }
 
-#background-video-layer {
-  background-color: red;
+#navbar-switcher {
+  padding: 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#toggle-group {
+  height: 2rem;
 }
