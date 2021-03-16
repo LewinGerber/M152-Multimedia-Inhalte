@@ -35,8 +35,8 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | - | GALLERIE |
 | --- | --- |
 | 10. März 2021 | 3 Lektionen |
-| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | |
-| Erreichte Kompetenzen und notwendiges Wissen: | |
-| Gemachte Erfahrungen: | |
-| Standortbestimmung und Selbsteinschätzung: | |
-| Planung, nächste Schritte: | |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Inegrieren von Bildinhalten in eine Webapplikation. |
+| Erreichte Kompetenzen und notwendiges Wissen: | Ich habe mich über verschiedene Libraries und Wege informiert, wie Bilder in ein React.js Applikation integriert werden können. |
+| Gemachte Erfahrungen: | Ich habe gemerkt wie wenige Libraries es gibt, welche alles erledigen. Es hat lange gedauert bis ich eine gefunden hatte, welche responsive ist und gleichzeitig eine Bildervorschau hat. Ebenfalls erfahren habe ich, wie komplex eine Lösung für ein schönes Grid von Bildern sein kann, wenn es zudem responsive zu sein. |
+| Standortbestimmung und Selbsteinschätzung: | Ich habe schon verstanden, wie man Bilder integrieren kann und was der beste Weg ist. Nun muss ich nur noch die Webapplikation technisch umsetzen. |
+| Planung, nächste Schritte: | Als nächster Schritt muss ich noch einen Bug beheben, welcher die Library-Inhalte verschwinden lassen und dann echte Bilder auf der Webseite darstellen und dann das Styling verbessern. |
