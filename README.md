@@ -32,11 +32,20 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | Standortbestimmung und Selbsteinschätzung: | Mit diesen Schritten habe ich das Videoprojekt endgültig abgeschlossen. |
 | Planung, nächste Schritte: | Als nächstes widme ich mich der nächsten Projektarbeit (Bildergallerie) |
 
-| - | GALLERIE |
+| - | BILDERGALLERIE |
 | --- | --- |
-| 10. März 2021 | 3 Lektionen |
+| 10. März 2021 | 2 Lektionen |
 | Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Inegrieren von Bildinhalten in eine Webapplikation. Ich habe einen Slider und eine Library für ein responsive Image-Grid implementiert. |
 | Erreichte Kompetenzen und notwendiges Wissen: | Ich habe mich über verschiedene Libraries und Wege informiert, wie Bilder in ein React.js Applikation integriert werden können. |
 | Gemachte Erfahrungen: | Ich habe gemerkt wie wenige Libraries es gibt, welche alles erledigen. Es hat lange gedauert bis ich eine gefunden hatte, welche responsive ist und gleichzeitig eine Bildervorschau hat. Ebenfalls erfahren habe ich, wie komplex eine Lösung für ein schönes Grid von Bildern sein kann, wenn es zudem responsive zu sein. |
 | Standortbestimmung und Selbsteinschätzung: | Ich habe schon verstanden, wie man Bilder integrieren kann und was der beste Weg ist. Nun muss ich nur noch die Webapplikation technisch umsetzen. |
 | Planung, nächste Schritte: | Als nächster Schritt muss ich noch einen Bug beheben, welcher die Library-Inhalte verschwinden lassen und dann echte Bilder auf der Webseite darstellen und dann das Styling verbessern. |
+
+| - | BILDERGALLERIE |
+| --- | --- |
+| 17. März 2021 | 3 Lektionen |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | |
+| Erreichte Kompetenzen und notwendiges Wissen: | |
+| Gemachte Erfahrungen: | |
+| Standortbestimmung und Selbsteinschätzung: | |
+| Planung, nächste Schritte: | |
