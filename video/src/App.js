@@ -18,7 +18,7 @@ function App() {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   });
-
+  //todo: preload metadata
   return (
     <div className="app">
       <video id="video" width={size.width} height={size.height} controls data-videoid="video-id">
