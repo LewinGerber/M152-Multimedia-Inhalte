@@ -44,6 +44,15 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | - | BILDERGALLERIE |
 | --- | --- |
 | 17. März 2021 | 3 Lektionen |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Ich habe heute vor allem versucht die Integration der Bilder umzusetzen. Der 1. Teil dieser Arbeit war es eine passende Library für die Integration zu finden (was mehr Zeit in Anspruch genommen hat, als ich anfangs erwartet hatte). Schlussendlich habe ich eine passende Library mit photoswipe gefunden. Ich wollte zudem die Bilder mit der Unsplash-API integrieren.  |
+| Erreichte Kompetenzen und notwendiges Wissen: | |
+| Gemachte Erfahrungen: | Ich habe gemerkt wie wenige Ressourcen es zu Bilderlibraries gibt.  |
+| Standortbestimmung und Selbsteinschätzung: | |
+| Planung, nächste Schritte: | Bildergalerie weiterentwickeln und Bilder manuell einfügen.|
+
+| - | BILDERGALLERIE |
+| --- | --- |
+| 24. März 2021 | 3 Lektionen |
 | Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | |
 | Erreichte Kompetenzen und notwendiges Wissen: | |
 | Gemachte Erfahrungen: | |
