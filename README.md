@@ -32,7 +32,7 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | Standortbestimmung und Selbsteinschätzung: | Mit diesen Schritten habe ich das Videoprojekt endgültig abgeschlossen. |
 | Planung, nächste Schritte: | Als nächstes widme ich mich der nächsten Projektarbeit (Bildergallerie) |
 
-| - | BILDERGALLERIE |
+| 📷 | BILDERGALLERIE |
 | --- | --- |
 | 10. März 2021 | 2 Lektionen |
 | Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Inegrieren von Bildinhalten in eine Webapplikation. Ich habe einen Slider und eine Library für ein responsive Image-Grid implementiert. |
@@ -41,7 +41,7 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | Standortbestimmung und Selbsteinschätzung: | Ich habe schon verstanden, wie man Bilder integrieren kann und was der beste Weg ist. Nun muss ich nur noch die Webapplikation technisch umsetzen. |
 | Planung, nächste Schritte: | Als nächster Schritt muss ich noch einen Bug beheben, welcher die Library-Inhalte verschwinden lassen und dann echte Bilder auf der Webseite darstellen und dann das Styling verbessern. |
 
-| - | BILDERGALLERIE |
+| 📷 | BILDERGALLERIE |
 | --- | --- |
 | 17. März 2021 | 3 Lektionen |
 | Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Ich habe heute vor allem versucht die Integration der Bilder umzusetzen. Der 1. Teil dieser Arbeit war es eine passende Library für die Integration zu finden (was mehr Zeit in Anspruch genommen hat, als ich anfangs erwartet hatte). Schlussendlich habe ich eine passende Library mit photoswipe gefunden. Ich wollte zudem die Bilder mit der Unsplash-API integrieren, allerdings war dort der API-Key ein Problem, da ich nicht wusste, wie ich den Key anwenden könnte und ihn versteckt und zugleich automatisch integriert zu haben.  |
@@ -50,7 +50,7 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | Standortbestimmung und Selbsteinschätzung: | Ich denke, dass ich noch einige Zeit brauchen werde, bis ich den optimalen Weg gefunden habe, um die Bilder schön und praktisch darzustellen. |
 | Planung, nächste Schritte: | Bildergalerie weiterentwickeln und Bilder manuell einfügen.|
 
-| - | BILDERGALLERIE |
+| 📷 | BILDERGALLERIE |
 | --- | --- |
 | 24. März 2021 | 3 Lektionen |
 | Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Ich habe heute manuell die Bilder eingefügt und das Responsive-Design umgesetzt. Meine Basisapplikation steht nun. Zudem habe ich mich noch mit dem Theorieteil (Dateiformate etc.) beschäftigt.|
