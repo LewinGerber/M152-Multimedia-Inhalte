@@ -1,4 +1,4 @@
-[![Github All Releases](https://64.media.tumblr.com/15fdc543e64a00f21c44e6a0ae3196dc/tumblr_n04202tC3J1t15s0lo5_500.gif)]()
+![Github All Releases](https://64.media.tumblr.com/15fdc543e64a00f21c44e6a0ae3196dc/tumblr_n04202tC3J1t15s0lo5_500.gif)]()
 
 # M152-Multimedia-Inhalte
 Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im Rahmen des Moduls 152
