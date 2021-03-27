@@ -1,20 +1,37 @@
+import { React, useState } from 'react';
 import Slider from 'react-animated-slider';
 import horizontalCss from 'react-animated-slider/build/horizontal.css';
-
 import { Gallery, Item } from 'react-photoswipe-gallery';
 import 'photoswipe/dist/photoswipe.css';
 import 'photoswipe/dist/default-skin/default-skin.css';
 import './App.css';
 
 function App() {
-  /*const getImage = async () => {
-    let imageArray = [];
-    for(var i = 0; i <= 3; i++) {
-      let imageData = await fetch('https://random.imagecdn.app/800/500');
-      imageArray.push({url: imageData.url});
+  let fileReader = new FileReader();
+  const [pictures, setPictures] = useState([]);
+
+  function readFile(e) {
+    var image = new Image();
+    const files = e.target.files[0];
+    if (files) {
+      const fileReader = new FileReader();
+      fileReader.readAsDataURL(files);
+      fileReader.addEventListener("load", function () {
+        image.src = this.result;
+
+        image.onload = () => {
+          setPictures([...pictures, 
+            {
+              src: image.src,
+              width: image.width,
+              height: image.height
+            }
+          ]);
+        };
+        
+      });
     }
-    return [...imageArray];
-  }*/
+  }
 
   const images = [
     {
@@ -83,20 +100,41 @@ function App() {
         <Gallery>
           {
             images.map((image) =>
-                <Item
-                  original={image.url}
-                  thumbnail={image.thumbnail}
-                  width={image.width}
-                  height={image.height}
-                >
-                  {({ ref, open }) => (
-                    <img ref={ref} id="gallery-item" onClick={open} src={image.thumbnail} />
-                  )}
-                </Item>
+              <Item
+                original={image.url}
+                thumbnail={image.thumbnail}
+                width={image.width}
+                height={image.height}
+              >
+                {({ ref, open }) => (
+                  <img ref={ref} id="gallery-item" onClick={open} src={image.thumbnail} />
+                )}
+              </Item>
+            )
+          }
+
+          {
+            pictures.map((picture) =>
+              <Item
+                original={picture.src}
+                thumbnail={picture}
+                width={picture.width}
+                height={picture.height}
+              >
+                {({ ref, open }) => (
+                  <img ref={ref} id="gallery-item" width="350px" height="450px" style={{objectFit: 'cover'}}onClick={open} src={picture.src} />
+                )}
+              </Item>
             )
           }
         </Gallery>
-      </div>
+
+        <form>
+          <div>
+            <input type="file" accept="image/*" id="choose-file" name="choose-file" onChange={readFile}/>
+          </div>
+        </form>
+    </div>
     </div>
   );
 }
