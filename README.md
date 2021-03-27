@@ -1,4 +1,4 @@
-![Github All Releases](https://64.media.tumblr.com/15fdc543e64a00f21c44e6a0ae3196dc/tumblr_n04202tC3J1t15s0lo5_500.gif)]()
+[![Github All Releases](https://64.media.tumblr.com/15fdc543e64a00f21c44e6a0ae3196dc/tumblr_n04202tC3J1t15s0lo5_500.gif)]()
 
 # M152-Multimedia-Inhalte
 Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im Rahmen des Moduls 152
@@ -32,7 +32,7 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | Standortbestimmung und Selbsteinschätzung: | Mit diesen Schritten habe ich das Videoprojekt endgültig abgeschlossen. |
 | Planung, nächste Schritte: | Als nächstes widme ich mich der nächsten Projektarbeit (Bildergallerie) |
 
-| - | BILDERGALLERIE |
+| 📷 | BILDERGALLERIE |
 | --- | --- |
 | 10. März 2021 | 2 Lektionen |
 | Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Inegrieren von Bildinhalten in eine Webapplikation. Ich habe einen Slider und eine Library für ein responsive Image-Grid implementiert. |
@@ -41,11 +41,20 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | Standortbestimmung und Selbsteinschätzung: | Ich habe schon verstanden, wie man Bilder integrieren kann und was der beste Weg ist. Nun muss ich nur noch die Webapplikation technisch umsetzen. |
 | Planung, nächste Schritte: | Als nächster Schritt muss ich noch einen Bug beheben, welcher die Library-Inhalte verschwinden lassen und dann echte Bilder auf der Webseite darstellen und dann das Styling verbessern. |
 
-| - | BILDERGALLERIE |
+| 📷 | BILDERGALLERIE |
 | --- | --- |
 | 17. März 2021 | 3 Lektionen |
-| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | |
-| Erreichte Kompetenzen und notwendiges Wissen: | |
-| Gemachte Erfahrungen: | |
-| Standortbestimmung und Selbsteinschätzung: | |
-| Planung, nächste Schritte: | |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Ich habe heute vor allem versucht die Integration der Bilder umzusetzen. Der 1. Teil dieser Arbeit war es eine passende Library für die Integration zu finden (was mehr Zeit in Anspruch genommen hat, als ich anfangs erwartet hatte). Schlussendlich habe ich eine passende Library mit photoswipe gefunden. Ich wollte zudem die Bilder mit der Unsplash-API integrieren, allerdings war dort der API-Key ein Problem, da ich nicht wusste, wie ich den Key anwenden könnte und ihn versteckt und zugleich automatisch integriert zu haben.  |
+| Erreichte Kompetenzen und notwendiges Wissen: | Ich habe mich mit den verschiedenen Themen zur Integration von Bildern in eine Webapplikation beschäftigt. |
+| Gemachte Erfahrungen: | Ich habe gemerkt wie wenige Ressourcen es zu Bilderlibraries gibt.  |
+| Standortbestimmung und Selbsteinschätzung: | Ich denke, dass ich noch einige Zeit brauchen werde, bis ich den optimalen Weg gefunden habe, um die Bilder schön und praktisch darzustellen. |
+| Planung, nächste Schritte: | Bildergalerie weiterentwickeln und Bilder manuell einfügen.|
+
+| 📷 | BILDERGALLERIE |
+| --- | --- |
+| 24. März 2021 | 3 Lektionen |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Ich habe heute manuell die Bilder eingefügt und das Responsive-Design umgesetzt. Meine Basisapplikation steht nun. Zudem habe ich mich noch mit dem Theorieteil (Dateiformate etc.) beschäftigt.|
+| Erreichte Kompetenzen und notwendiges Wissen: | Ich habe Bilder in eine Webapplikation integriert und das Wissen zu Bildinhalten im Web vertieft. |
+| Gemachte Erfahrungen: | - |
+| Standortbestimmung und Selbsteinschätzung: | Grundsätzlich funktioniert nun alles, aber ich bin noch nicht zufrieden, wie die Applikation aussieht (besonders die Thumbnails funktionieren noch nicht so gut wie sie sollten, da die Bildverhältnisse sich ändern müssen.) |
+| Planung, nächste Schritte: | Als Nächstes will ich noch andere Methoden zur Integration der Bilder in die Webapplikation ausprobieren und die Applikation noch besser aufbauen. |
