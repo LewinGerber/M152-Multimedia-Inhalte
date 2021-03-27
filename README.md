@@ -57,4 +57,3 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | Erreichte Kompetenzen und notwendiges Wissen: | Ich habe Bilder in eine Webapplikation integriert und das Wissen zu Bildinhalten im Web vertieft. |
 | Gemachte Erfahrungen: | - |
 | Standortbestimmung und Selbsteinschätzung: | Grundsätzlich funktioniert nun alles, aber ich bin noch nicht zufrieden, wie die Applikation aussieht (besonders die Thumbnails funktionieren noch nicht so gut wie sie sollten, da die Bildverhältnisse sich ändern müssen.) |
-| Planung, nächste Schritte: | Als Nächstes will ich noch andere Methoden zur Integration der Bilder in die Webapplikation ausprobieren und die Applikation noch besser aufbauen. |
