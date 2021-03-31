@@ -2,6 +2,9 @@ import { React, useState } from 'react';
 import Slider from 'react-animated-slider';
 import horizontalCss from 'react-animated-slider/build/horizontal.css';
 import { Gallery, Item } from 'react-photoswipe-gallery';
+import { SiUnsplash } from 'react-icons/si';
+import { FaCamera } from 'react-icons/fa';
+import { BsImages } from 'react-icons/bs';
 import 'photoswipe/dist/photoswipe.css';
 import 'photoswipe/dist/default-skin/default-skin.css';
 import './App.css';
@@ -20,15 +23,15 @@ function App() {
         image.src = this.result;
 
         image.onload = () => {
-          setPictures([...pictures, 
-            {
-              src: image.src,
-              width: image.width,
-              height: image.height
-            }
+          setPictures([...pictures,
+          {
+            src: image.src,
+            width: image.width,
+            height: image.height
+          }
           ]);
         };
-        
+
       });
     }
   }
@@ -45,7 +48,7 @@ function App() {
       thumbnail: 'https://images.unsplash.com/photo-1616422285623-13ff0162193c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=350&h=450',
       width: 672,
       height: 850
-    }, 
+    },
     {
       url: 'https://images.unsplash.com/photo-1616418534243-ab757ff8ce3a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&h=850',
       thumbnail: 'https://images.unsplash.com/photo-1616418534243-ab757ff8ce3a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=350&h=450',
@@ -87,7 +90,7 @@ function App() {
   return (
     <div className="App">
       <div id="title-area">
-        Bildergalerie
+        <h1>Bildergalerie</h1>
       </div>
       <div id="slider-area">
         <Slider classNames={horizontalCss}>
@@ -97,44 +100,66 @@ function App() {
         </Slider>
       </div>
       <div id="gallery-area">
-        <Gallery>
-          {
-            images.map((image) =>
-              <Item
-                original={image.url}
-                thumbnail={image.thumbnail}
-                width={image.width}
-                height={image.height}
-              >
-                {({ ref, open }) => (
-                  <img ref={ref} id="gallery-item" onClick={open} src={image.thumbnail} />
-                )}
-              </Item>
-            )
-          }
+        <h2 className="subtitle"><SiUnsplash style={{marginRight: '1rem'}}/>Unsplash</h2>
+        <div id="gallery-wrapper">
+          <Gallery>
+            {
+              images.map((image) =>
+                <Item
+                  original={image.url}
+                  thumbnail={image.thumbnail}
+                  width={image.width}
+                  height={image.height}
+                >
+                  {({ ref, open }) => (
+                    <img ref={ref} id="gallery-item" onClick={open} src={image.thumbnail} />
+                  )}
+                </Item>
+              )
+            }
 
-          {
-            pictures.map((picture) =>
-              <Item
-                original={picture.src}
-                thumbnail={picture}
-                width={picture.width}
-                height={picture.height}
-              >
-                {({ ref, open }) => (
-                  <img ref={ref} id="gallery-item" width="350px" height="450px" style={{objectFit: 'cover'}}onClick={open} src={picture.src} />
-                )}
-              </Item>
-            )
-          }
-        </Gallery>
+            {
+              pictures.map((picture) =>
+                <Item
+                  original={picture.src}
+                  thumbnail={picture}
+                  width={picture.width}
+                  height={picture.height}
+                >
+                  {({ ref, open }) => (
+                    <img ref={ref} id="gallery-item" width="350px" height="450px" style={{ objectFit: 'cover' }} onClick={open} src={picture.src} />
+                  )}
+                </Item>
+              )
+            }
+          </Gallery>
+        </div>
+        <h2 className="subtitle"><FaCamera style={{marginRight: '1rem'}}/>Eigene Bilder</h2>
+        <div id="gallery-wrapper">
+          <Gallery>
+            {
+              images.map((image) =>
+                <Item
+                  original={image.url}
+                  thumbnail={image.thumbnail}
+                  width={image.width}
+                  height={image.height}
+                >
+                  {({ ref, open }) => (
+                    <img ref={ref} id="gallery-item" onClick={open} src={image.thumbnail} />
+                  )}
+                </Item>
+              )
+            }
+          </Gallery>
+        </div>  
+      </div>
+      <form>
+        <div id="upload-image-container">
+          <input id="image-upload" type="file" accept="image/*" id="choose-file" name="choose-file" onChange={readFile} />
+        </div>
+      </form>
 
-        <form>
-          <div>
-            <input type="file" accept="image/*" id="choose-file" name="choose-file" onChange={readFile}/>
-          </div>
-        </form>
-    </div>
     </div>
   );
 }
