@@ -57,3 +57,12 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | Erreichte Kompetenzen und notwendiges Wissen: | Ich habe Bilder in eine Webapplikation integriert und das Wissen zu Bildinhalten im Web vertieft. |
 | Gemachte Erfahrungen: | - |
 | Standortbestimmung und Selbsteinschätzung: | Grundsätzlich funktioniert nun alles, aber ich bin noch nicht zufrieden, wie die Applikation aussieht (besonders die Thumbnails funktionieren noch nicht so gut wie sie sollten, da die Bildverhältnisse sich ändern müssen.) |
+
+| 📷 | BILDERGALLERIE |
+| --- | --- |
+| 31. März 2021 | 3 Lektionen |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Ich habe heute ein Redesign der Webseite vorgenommen.|
+| Erreichte Kompetenzen und notwendiges Wissen: | - |
+| Gemachte Erfahrungen: | - |
+| Standortbestimmung und Selbsteinschätzung: | Ich habe das Thema schon sehr gut verstanden und arbeite noch an Zusatzfeatures. |
+| Planung, nächste Schritte: | Ich muss nun noch die Erstellung der Thumbnails umsetzen. |
