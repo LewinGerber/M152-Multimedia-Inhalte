@@ -66,3 +66,22 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | Gemachte Erfahrungen: | - |
 | Standortbestimmung und Selbsteinschätzung: | Ich habe das Thema schon sehr gut verstanden und arbeite noch an Zusatzfeatures. |
 | Planung, nächste Schritte: | Ich muss nun noch die Erstellung der Thumbnails umsetzen. |
+
+
+| 📷 | BILDERGALLERIE |
+| --- | --- |
+| 7. April 2021 | 3 Lektionen |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Heute habe ich mich damit beschäftigt die Thumbnails für die Bilder zu erstellen. Ich habe zuerst versucht diese immer live zu erstellen, habe aber dann gemerkt, dass dies so nicht effizient funktionieren würde. Schlussendlich habe ich mich dann für eine reine CSS-Lösung entschieden und diese noch vollständig implementiert. Zudem habe ich den File-Upload um ein DND-System erweitert und die Webseite neu strukturiert und eine Navbar eingefügt.  |
+| Erreichte Kompetenzen und notwendiges Wissen: | Ich habe gelernt wie ich mit JS Bilder vergrössern, croppen und allgemein direkt bearbeiten kann. |
+| Gemachte Erfahrungen: | - |
+| Standortbestimmung und Selbsteinschätzung: | Ich bin nun mit dieser Projektarbeit fertig und habe alle Teile verstanden und kann diese auch praktisch umsetzen. |
+
+
+| 🌌 | Animationen |
+| --- | --- |
+| 14. April 2021 | 3 Lektionen |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | |
+| Erreichte Kompetenzen und notwendiges Wissen: | |
+| Gemachte Erfahrungen: | |
+| Standortbestimmung und Selbsteinschätzung: | |
+| Planung, nächste Schritte: | |
