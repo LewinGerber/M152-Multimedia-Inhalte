@@ -1,25 +1,117 @@
-import logo from './logo.svg';
+import { React, useState } from 'react';
+import PropTypes from 'prop-types';
+import SwipeableViews from 'react-swipeable-views';
+import { AppBar, Tabs, Tab, makeStyles, createMuiTheme, ThemeProvider } from '@material-ui/core';
 import './App.css';
+import ReactPage from './pages/react';
 
-function App() {
+function TabPanel(props) {
+  const { children, value, index, ...other } = props;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`full-width-tabpanel-${index}`}
+      aria-labelledby={`full-width-tab-${index}`}
+      {...other}
+    >
+      {value === index && (
+        <div className="tab-content">
+          {children}
+        </div>
+      )}
     </div>
   );
 }
+
+TabPanel.propTypes = {
+  children: PropTypes.node,
+  index: PropTypes.any.isRequired,
+  value: PropTypes.any.isRequired,
+};
+
+function a11yProps(index) {
+  return {
+    id: `full-width-tab-${index}`,
+    'aria-controls': `full-width-tabpanel-${index}`,
+  };
+}
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    width: '100vw',
+    position: 'fixed',
+    height: '100vh',
+  },
+}));
+
+function App() {
+  const classes = useStyles();
+  const theme = createMuiTheme ({
+    palette: {
+      type: 'dark',
+      primary: {
+        main: '#00ff00'
+      },
+    }
+  });
+
+  const [value, setValue] = useState(0);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
+  const handleChangeIndex = (index) => {
+    setValue(index);
+  };
+
+  return (
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <div className={classes.root}>
+          <AppBar position="static" color="default">
+            <Tabs
+              value={value}
+              onChange={handleChange}
+              indicatorColor="primary"
+              textColor="primary"
+              variant="fullWidth"
+              className="tabs-wrapper"
+            >
+              <Tab label="Welcome Page" {...a11yProps(0)} />
+              <Tab label="SVG Animation" {...a11yProps(1)} />
+              <Tab label="Canvas Animation" {...a11yProps(2)} />
+              <Tab label="GreenSock Animation" {...a11yProps(3)} />
+            </Tabs>
+          </AppBar>
+          <SwipeableViews
+            axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+            index={value}
+            onChangeIndex={handleChangeIndex}
+          >
+            <TabPanel value={value} index={0} dir={theme.direction}>
+              <ReactPage />
+            </TabPanel>
+
+            <TabPanel value={value} index={1} dir={theme.direction}>
+              Item Two
+            </TabPanel>
+
+            <TabPanel value={value} index={2} dir={theme.direction}>
+              Item Three
+             </TabPanel>
+
+          </SwipeableViews>
+        </div>
+      </div>
+    </ThemeProvider>
+  );
+}
+
+/*
+  
+*/
 
 export default App;
