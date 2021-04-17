@@ -4,6 +4,7 @@ import SwipeableViews from 'react-swipeable-views';
 import { AppBar, Tabs, Tab, makeStyles, createMuiTheme, ThemeProvider } from '@material-ui/core';
 import './App.css';
 import ReactPage from './pages/react';
+import SvgPage from './pages/svg';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -96,7 +97,7 @@ function App() {
             </TabPanel>
 
             <TabPanel value={value} index={1} dir={theme.direction}>
-              Item Two
+              <SvgPage />
             </TabPanel>
 
             <TabPanel value={value} index={2} dir={theme.direction}>
