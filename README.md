@@ -80,8 +80,17 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | 🌌 | Animationen |
 | --- | --- |
 | 14. April 2021 | 3 Lektionen |
-| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | |
-| Erreichte Kompetenzen und notwendiges Wissen: | |
-| Gemachte Erfahrungen: | |
-| Standortbestimmung und Selbsteinschätzung: | |
-| Planung, nächste Schritte: | |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Ich habe mich mit dem Grundaufbau der Applikation auseinandergesetzt. Anschliessend habe ich angeschaut wie man SVG-Animationen mit CSS machen kann. |
+| Erreichte Kompetenzen und notwendiges Wissen: | Ich verstehe nun wie man in wenigen Schritten eine einfache Animation erstellt, indem man ein Element mit CSS animiert. |
+| Gemachte Erfahrungen: | Da ich selbst schon in meiner Freizeit mit CSS-Animationen gemacht habe ist mir wieder aufgefallen wie schwer es sein kann eine Animation perfekt abzustimmen. In meiner Applikation habe ich zudem mit MUI eine Tab-Switcher eingebaut und so auch schon Animationen für ein echtes Beispiel anwenden können. |
+| Standortbestimmung und Selbsteinschätzung: | Ich verstehe die Basics vom Animieren schon gut genug, dass ich nun zu den komplexeren Animationen übergehen kann. |
+| Planung, nächste Schritte: | Als Nächstes will ich mich noch den fortgeschritteneren Animationen (Canvas, GreenSock) widmen. |
+
+| 🌌 | Animationen |
+| --- | --- |
+| 21. April 2021 | 3 Lektionen |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Heute habe ich mich mit den Animationen mit dem HTML-Canvas und GreenSock beschäftigt.  |
+| Erreichte Kompetenzen und notwendiges Wissen: | Ich kann nun auch komplexere Animationen umsetzen und verstehe nun besser wie man diese in eine Applikation integrieren kann. |
+| Gemachte Erfahrungen: | Ich habe vor allem gelernt wie der Canvas in React integriert werden kann, wenn man Hooks verwendet. Als Zweites habe ich ebenfalls gelernt was GreenSock ungefähr kann und wie ich ein einfaches Beispiel implementiere. |
+| Standortbestimmung und Selbsteinschätzung: | Ich habe nun das Thema Animation schon verstanden und kenne mich nun schon mit verschiedenen Wegen um zu animieren aus.|
+| Planung, nächste Schritte: | Wenn ich die Zeit noch finde, werde ich die Applikation noch verbessern und mich mit P5 beschäftigen. |
