@@ -5,6 +5,8 @@ import { AppBar, Tabs, Tab, makeStyles, createMuiTheme, ThemeProvider } from '@m
 import './App.css';
 import ReactPage from './pages/react';
 import SvgPage from './pages/svg';
+import CanvasPage from './pages/canvas';
+import GsapPage from './pages/gsap';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -101,7 +103,11 @@ function App() {
             </TabPanel>
 
             <TabPanel value={value} index={2} dir={theme.direction}>
-              Item Three
+              <CanvasPage />
+             </TabPanel>
+
+             <TabPanel value={value} index={3} dir={theme.direction}>
+              <GsapPage />
              </TabPanel>
 
           </SwipeableViews>

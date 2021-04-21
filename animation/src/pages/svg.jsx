@@ -2,9 +2,7 @@ import './svg-style.css';
 import svgBg from './svg_bg.gif';
 
 export const SvgPage = () => {
-
     return (
-        
             <div id="svg-wrapper">
                 <img className="bg-image" src={svgBg} />
                 <svg width="100%" height="100%" id="svg-block">
