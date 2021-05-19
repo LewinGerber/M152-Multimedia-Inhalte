@@ -94,3 +94,10 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | Gemachte Erfahrungen: | Ich habe vor allem gelernt wie der Canvas in React integriert werden kann, wenn man Hooks verwendet. Als Zweites habe ich ebenfalls gelernt was GreenSock ungefähr kann und wie ich ein einfaches Beispiel implementiere. |
 | Standortbestimmung und Selbsteinschätzung: | Ich habe nun das Thema Animation schon verstanden und kenne mich nun schon mit verschiedenen Wegen um zu animieren aus.|
 | Planung, nächste Schritte: | Wenn ich die Zeit noch finde, werde ich die Applikation noch verbessern und mich mit P5 beschäftigen. |
+
+
+| 📁 | Allgemein |
+| --- | --- |
+| 12. Mai 2021 | 3 Lektionen |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Ich habe einige kleine Fehler in der Bildergalerie und beim Video behoben. Zudem habe ich mir Notizen für das Fachgespräch gemacht und deshalb nochmals alle Projekte angeschaut. |
+| Planung, nächste Schritte: | Ich bin mit der Projektarbeit fertig. |
