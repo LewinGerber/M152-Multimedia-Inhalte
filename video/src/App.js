@@ -26,9 +26,6 @@ function App() {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   });
-<<<<<<< HEAD
-  //todo: preload metadata
-=======
 
   const FullImplementation = () => (
     <video id="video" width={size.width} height={size.height} controls preload="auto">
@@ -44,12 +41,11 @@ function App() {
 
   //made with video-react
   const LibraryImplementation = () => (
-    <div style={{ width: '90%' }}>
+    <div style={{ width: '80%' }}>
       <Player playsinline src={videoOptimized} />
     </div>
   );
-
->>>>>>> a500ca46b04e425220a5ccac7d49cef652b997a8
+  
   return (
     <div className="app">
       <div id="navbar-switcher">

@@ -144,7 +144,7 @@ function App() {
               selfCreatedImages.map((image) =>
                 <Item
                   original={image.url}
-                  thumbnail={image.url}
+                  thumbnail={image}
                   width={image.width}
                   height={image.height}
                 >
