@@ -7,6 +7,7 @@ import ReactPage from './pages/react';
 import SvgPage from './pages/svg';
 import CanvasPage from './pages/canvas';
 import GsapPage from './pages/gsap';
+import P5Page from './pages/p5';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -87,6 +88,7 @@ function App() {
               <Tab label="SVG Animation" {...a11yProps(1)} />
               <Tab label="Canvas Animation" {...a11yProps(2)} />
               <Tab label="GreenSock Animation" {...a11yProps(3)} />
+              <Tab label="P5 Animation" {...a11yProps(4)} />
             </Tabs>
           </AppBar>
           <SwipeableViews
@@ -108,6 +110,10 @@ function App() {
 
              <TabPanel value={value} index={3} dir={theme.direction}>
               <GsapPage />
+             </TabPanel>
+
+             <TabPanel value={value} index={4} dir={theme.direction}>
+              <P5Page />
              </TabPanel>
 
           </SwipeableViews>
