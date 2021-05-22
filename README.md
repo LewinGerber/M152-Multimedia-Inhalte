@@ -89,11 +89,11 @@ Sammlung aller Projektarbeiten rund um Multimedia Inhalte in Webappliaktionen im
 | 🌌 | Animationen |
 | --- | --- |
 | 21. April 2021 | 3 Lektionen |
-| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Heute habe ich mich mit den Animationen mit dem HTML-Canvas und GreenSock beschäftigt.  |
-| Erreichte Kompetenzen und notwendiges Wissen: | Ich kann nun auch komplexere Animationen umsetzen und verstehe nun besser wie man diese in eine Applikation integrieren kann. |
+| Behandelte Fachthemen:(Kompetenz, Hinweis Portfolio) | Heute habe ich mich mit den Animationen mit dem HTML-Canvas und GreenSock beschäftigt. Als Zusatz habe ich ebenfalls eine Animation mit P5 umgesetzt, bei der es möglich ist mit Slidern die Animation live zu verändern.  |
+| Erreichte Kompetenzen und notwendiges Wissen: | Ich kann nun auch komplexere Animationen umsetzen und verstehe nun besser wie man diese in eine Applikation integrieren kann. Ich habe ebenfalls gelernt, wie ich P5.js zusammen mit React bentuze.|
 | Gemachte Erfahrungen: | Ich habe vor allem gelernt wie der Canvas in React integriert werden kann, wenn man Hooks verwendet. Als Zweites habe ich ebenfalls gelernt was GreenSock ungefähr kann und wie ich ein einfaches Beispiel implementiere. |
 | Standortbestimmung und Selbsteinschätzung: | Ich habe nun das Thema Animation schon verstanden und kenne mich nun schon mit verschiedenen Wegen um zu animieren aus.|
-| Planung, nächste Schritte: | Wenn ich die Zeit noch finde, werde ich die Applikation noch verbessern und mich mit P5 beschäftigen. |
+| Planung, nächste Schritte: | Als nächstes muss ich mich auf das Fachgespräch vorbereiten. |
 
 
 | 📁 | Allgemein |
